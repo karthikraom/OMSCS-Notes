@@ -2,7 +2,7 @@
 
 In this lesson we will look into the four models of context surrounding HCI:
 
-1. Distributed cognition
+1. Distributed cognition >> Xple agents, artifacts and contexts.
 2. Social cognition
 3. Situated action
 4. Activity theory
@@ -17,9 +17,9 @@ Given the dynamic nature of flight, how does a cockpit remember its speeds?
 
 The paper references to a cockpit and not one individual component as the cockpit comprises of more than one cognitive component to remember speeds:
 
-1. Long-term memory: a library of configurations
-2. Short-term memory: a specific configuration
-3. Working memory: use of speed bugs on a dial
+1. Long-term memory: a booklet of speeds
+2. Short-term memory: pinned sheet from the booklet.
+3. Working memory: use of speed bugs on a speedometer
 4. Deliberation: the two pilots in the cockpit
 
 Each one of these components helps in remembering the speed of a plane by serving as an individual cognitive component in the cognitive system.
@@ -29,6 +29,7 @@ Each one of these components helps in remembering the speed of a plane by servin
 Distributed cognition is concerned with how the mind can be extended by relations with other artifacts and other individuals.
 
 Social cognition is concerned with distributing cognition across individuals.
+Eg: While driving, offloading the navigation to GPS(artifact), and if on cruise control, then offloading the speed check to car.
 
 ## Social Cognition
 
@@ -54,7 +55,7 @@ A massive and well-developed set of theories regarding interaction between vario
 
 1. Activity theory generalizes our unit of analysis from the task to the activity; we're not just interested in what users doing but why users are doing it
 2. Activity theory puts an emphasis on the idea that we can create low level operations from higher level actions
-3. Activity theory points out that actions by the user can actually move up and down a hierarchy
+3. Activity theory points out that actions by the user can actually move up and down a hierarchy. Eg: After some time, shifting gears becomes second nature; so it becomes a operator from a goal.
 
 ## Section Quizzes
 
