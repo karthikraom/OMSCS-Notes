@@ -143,7 +143,7 @@ Below is a summary of empirical tests:
 2. Limit your variables that are used falling one 
 3. Work backwards
 4. Script your analyses in advance
-5. Pay attention to power
+5. Pay attention to power: size of the difference that the evalauation gets.
 
 ## Predictive Evaluation
 
