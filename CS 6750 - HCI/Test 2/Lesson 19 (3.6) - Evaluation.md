@@ -22,11 +22,11 @@ This lesson will cover the following topics:
 
 ## 5 Tips: What To Evaluate
 
-1. Efficiency
-2. Accuracy
-3. Learnability
-4. Memorability
-5. Satisfaction
+1. Efficiency : How long does it take for a new task.
+2. Accuracy: How many errors did the user commit while using the interface.
+3. Learnability: 
+4. Memorability: 
+5. Satisfaction: avoid social desirablity bias by using creatinve ways.
 
 ## Evaluation Timeline
 
@@ -35,7 +35,9 @@ The evaluation timeline usually is as follows:
 Regarding purpose:
 
 1. **Formative** - primary purpose is to help redesign and improve our interface
-2. **Summative** - the intention of conclusively saying at the end what the difference was
+    Usually, qualitative; done in lab testing; predictive testing is also done duirng the formative phase.
+2. **Summative** - the intention of conclusively saying at the end what the difference was;
+   empirical; field testing.    
 
 Regarding approach:
 
@@ -56,8 +58,8 @@ Regarding setting:
 ## Evaluation Design
 
 1. Define the task
-2. Define performance measures
-3. Develop the experiment
+2. Define performance measures: avoids confirmation bias; forces us to look objectively.
+3. Develop the experiment:
 4. Recruit participants
 5. Do the experiment
 6. Analyze the data
@@ -77,29 +79,29 @@ There are options when designing a qualitative evaluation:
 
 1. Prior experience or live demonstration?
 2. Synchronous or asynchronous?
-3. One interface or multiple prototypes?
-4. Think aloud protocol or post-event protocol?
-5. Individuals or groups?
+3. One interface or multiple prototypes?: If Xple, then vary the order.
+4. Think aloud protocol or post-event protocol? both affect the way users use the s/y; and thats definately not the way end users use them. They wont think aloud during their tasks.
+5. Individuals or groups? strong person in the grp might affect others; single person might not have too many ideas.
 
 ## Capturing Qualitative Evaluation
 
 Options to capture qualitative evaluation:
 
-1. Video recording
-2. Note-taking
-3. Software logging
+1. Video recording: Pros: automated, comprehensicve and passive | cons: intrusive, non-analyzable, screenless.
+2. Note-taking: Pros:cheap, non-intrusive, analyzable | cons: slow, manual and limited (u can only take so much)(might require 2 ppl)
+3. Software logging - best of both worlds.
 
 ## 5 Tips: Qualitative Evaluation
 
 1. Run pilot studies
-2. Focus on feedback
-3. Use questions
+2. Focus on feedback: dont try to make one person happy; idea is to get all sort of feedback.
+3. Use questions: ask usedrs question on why they think they are stuck.
 4. Instruct users what to do, not how
-5. Capture satisfaction
+5. Capture satisfaction: 
 
 ## Empirical Evaluation
 
-The goal of empirical evaluation is to come up with strong conclusions. Most empirical evaluations are comparisons.
+The goal of empirical evaluation is to come up with strong conclusions. __Most empirical evaluations are comparisons__.
 
 ## Designing Empirical Evaluation
 
@@ -110,7 +112,7 @@ The goal of empirical evaluation is to come up with strong conclusions. Most emp
 
 ## Hypothesis Testing
 
-- **Hypothesis testing** - testing whether or not the data allows us to conclude a difference exists
+- **Hypothesis testing** - testing whether or not the data allows us to conclude a difference exists; null (A=B) or alternateve (B=A) hypothesis.
 
 ## Quantitative Data And Empirical Tests
 
@@ -120,11 +122,14 @@ Recall that there are a number of tests for quantitative data:
    - Recommended - Chi-squared test
    - Alternatively: Fisher's exact test, G-test
 2. Ordinal:
-   - Recommended - Kolmogorov-Smirnov test
-   - Alternatively - Chi-squared test, median test
+   - Recommended - Kolmogorov-Smirnov test; sensitive that the categories are ordered.
+   - Alternatively - Chi-squared test (forgets that the data is ordered), median test
 3. Interval and ratio:
-   - Recommended - Student's _t_-test
+   - Recommended - Student's _t_-test; compares the tewo interfaces and see if the difference is significantly difference; can be used only when the data distribution is normal.
    - Alternatively - MWW test, Kruskal-Wallis test
+
+5. Binomial: Only with __two possible__ outcomes; like a coin toss.
+           - Binomial tests
 
 ## Summary Of Empirical Tests
 
@@ -135,7 +140,7 @@ Below is a summary of empirical tests:
 ## 5 Tips: Empirical Evaluation
 
 1. Control what you can, document what you can't
-2. Limit your variables
+2. Limit your variables that are used falling one 
 3. Work backwards
 4. Script your analyses in advance
 5. Pay attention to power
