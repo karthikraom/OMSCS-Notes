@@ -23,6 +23,9 @@ There are three goals of HCI:
 
 People can design things to intentionally create a negative (designing bridges too low so that it's harder for poor people to go to a destination) or positive change (Facebook's _like_ button).
 
+- Artifacts may be inherently political (like solar or nuclear energy) OR
+- they are build to carry out certain political motives (like automating a factory to bust a union)
+
 ## Change By Happenstance
 
 While people could intentionally create a positive or negative design, this could happen unintentionally as well for positive (the bicycle giving women freedom to travel independently) and negative (internet access) cases.
