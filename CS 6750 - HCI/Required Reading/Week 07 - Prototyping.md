@@ -48,10 +48,13 @@ We can look at prototypes as both concrete artifacts in their own right or as im
 
 We can analyze prototypes and prototyping techniques along four dimensions:
 
-- **Representation** - describes the form of the prototype, e.g., sets of paper sketches or computer simulations
-- **Precision** - describes the level of detail at which the prototype is to be evaluated; e.g., informal and rough or highly polished
-- **Interactivity** - describes the extent to which the user can actually interact with the prototype; e.g., watch-only or fully interactive
-- **Evolution** - describes the expected life-cycle of the prototype, e.g. throwaway or iterative
+- **Representation** - describes the form of the prototype, e.g., sets of paper sketches or computer simulations; online vs offline.
+- **Precision** - describes the level of detail at which the prototype is to be evaluated; e.g., informal and rough or highly polished; what is considered is upto the evaluation, but whats left out is up for debate.
+- **Interactivity** - describes the extent to which the user can actually interact with the prototype; e.g., watch-only or fully interactive;
+   * Fixed; Fixed path; open (vertical) prototype 
+- **Evolution** - describes the expected life-cycle of the prototype, e.g. throwaway(rapid) or iterative(working on a spc. task) or evolutionalty.
+
+
 
 ### Precision
 
@@ -61,6 +64,10 @@ We can analyze prototypes and prototyping techniques along four dimensions:
 
 > A critical role for an interactive system prototype is to illustrate how the user will interact with the system. While this may seem more natural with on-line prototypes, in fact it is often easier to explore different interaction strategies with off-line prototypes.
 
+### Prototypes and the design process
+**Participatory** : User is part of the design
+**User Centered**: user is part of the whole dev cycle.
+
 ### Exploring The Design Space
 
 All designers work with constraints: not just limited budgets and programming resources, but also design constraints. These are not necessarily bad: one cannot be creative along all dimensions at once. However, some constraints are unnecessary, derived from poor framing of the original design problem
@@ -69,13 +76,18 @@ Some of the most effective design solutions derive from a more careful understan
 
 Prototypes aid designers in both aspects of working with a design space: generating concrete representations of new ideas and clarifying specific design directions.
 
-### Horizontal Prototypes
+## Horizontal Prototypes
 
 The purpose of a horizontal prototype is to develop one entire layer of the design at the same time.
 
-### Vertical Prototypes
+## Vertical Prototypes
 
-The purpose of a vertical prototype is to ensure that the designer can implement the full, working system, from the user interface layer down to the underlying system layer.
+The purpose of a vertical prototype is to ensure that the designer can implement the full, working system, from the user interface layer down to the underlying system layer. Usally throw away;
+## Task based prototype
+Task specifict
+## Scenario based 
+Considers task and the context.
+
 
 ### Off-line Rapid Prototyping Techniques
 
@@ -90,11 +102,41 @@ There are four types covered in this paper:
 
 There are three types covered in this paper:
 
-1. Non-interactive simulations
-2. Interactive simulations
-3. Scripting languages
+1. Non-interactive simulations : Animation
+2. Interactive simulations: Figma
+3. Scripting languages: JS?
 
-### Design Patterns
+5. Iterative prototypes
+
+### 5. Iterative prototypes
+## 5.1 Software tools
+# Graphical libraries and Window systems
+Graphical libraries underlie all the other tools presented in this section. Their main purpose is to provide the developer with a hardware-independent, and sometimes
+cross-platform application programming interface (API) for drawing on the screen. They can be separated into two categories: direct drawing and scene-graph based.
+# User interface toolkits
+User interface toolkits are probably the most widely used tool nowadays to implement applications. All three major platforms (Unix/Linux, MacOS and Windows) come with at least one standard UI toolkit. The main abstraction provided by a UI toolkit is the widget. A widget is a software object that has three facets that closely match the __MVC model: a presentation, a behavior and an application interface__. Part of widget - 
+* Callback
+* Active variables
+* Listensers.
+
+# User interface builders
+
+## 5.2 Software environments
+# Application F/W
+Mac, windows 
+# Model based
+Model-based tools take the other approach, starting with the functional core and domain objects, and working their way towards the user interface and the presentation
+# User interface development environments (IDE)
+
+### 6. Evolutionary Prototypes
+## 6.1 Software architectures
+MVC 
+Presentation-Abstraction-Control model (PAC)
+A variant of MVC, called MVP (Model-View-Presenter),
+## 6.2 Design Patterns  
+because user input should drive the system’s reactions. Unfortunately, more often than not, the functional core also needs to be in control. This is especially
+common when creating user interfaces for legacy applications. In the Seeheim and Arch models, it is often believed that control is located in the dialog controller
+when in fact these architecture 
 
 > Design patterns have emerged in recent years as a way to capture effective solutions to recurrent software design problems. It is interesting to note than many of these patterns come from interactive software, and most of them can be applied to the design of interactive systems. Most patterns for interactive systems are behavioral patterns, i.e. patterns that describe how to implement the control structure of the system.
 
