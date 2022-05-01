@@ -26,9 +26,15 @@ People can design things to intentionally create a negative (designing bridges t
 - Artifacts may be inherently political (like solar or nuclear energy) OR
 - they are build to carry out certain political motives (like automating a factory to bust a union)
 
+## Negative Change by desingn
+builiding a low arch in the entry roads to prevent the poor ppl to come in there in bus.
+
+## Positive Change by design
+Positive social interaction in facebook (like, love, haha)
+
 ## Change By Happenstance
 
-While people could intentionally create a positive or negative design, this could happen unintentionally as well for positive (the bicycle giving women freedom to travel independently) and negative (internet access) cases.
+While people could intentionally create a positive or negative design, this could happen unintentionally as well for positive (the bicycle giving women freedom to travel independently) and negative (internet access across cities-  rich vs. poor) cases.
 
 ## Value-sensitive Design
 
@@ -36,7 +42,7 @@ Value-sensitive design seeks to provide theory and method to account for human v
 
 ## Value-sensitive Design Across Cultures
 
-One of the challenges of value-sensitive design is that values are different across cultures (culture that values privacy vs. cultures that value frees speech due to censorship).
+One of the challenges of value-sensitive design is that values are different across cultures (culture that values privacy vs. cultures that value frees speech due to censorship). Eg: right to be forgotten policy in Europe.
 
 ## 5 Tips: Value-sensitive Design
 
@@ -49,6 +55,7 @@ One of the challenges of value-sensitive design is that values are different acr
 ## Reversing The Relationship
 
 Technology changes society but society could also change technology too (e.g., demand for single platform to link to others for TV subscriptions).
+This might result in a sub-optimal product (fluroscent light that more energy than its actual potential) or products with features that are beneficial to a party that is not an end user (like different apps for streaming content).
 
 ## Section Quizzes
 
